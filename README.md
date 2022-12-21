@@ -1,10 +1,10 @@
 # Regex_Tutorial
 
-This repo is meant to provide the reader with information and tutorials on specific regular express, or regex, functions by breaking down each part of the expression and describing what it does. 
+
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This repo is meant to provide the reader with information and tutorials on specific regular express, or regex, functions by breaking down each part of the expression and describing what it does. 
 
 ## Table of Contents
 
@@ -28,7 +28,27 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### OR Operator
 
-### Character Classes
+### Character Classes  
+
+Character classes distinguish kinds od characters such as, for example, distinguising between letters and digits.    
+
+#### Example:     
+
+Character Class - Matches any one of the enclosed characters  
+```
+[xyz] // matches to with x, y, and z
+[a-c] // matches to a, b, and c
+```
+
+Negated Or Complemented Character Class - Matches anything that is NOT eclosed in brackets  
+```
+[^xyz] // matches to anything except x, y, and z
+[^a-c] // matches to anything except a, b, and c
+```
+Dot - Matches any single character except line terminators: ``` \n ```, ```\r```, ```\u2028```, or ```\u2029```    
+```
+.
+```
 
 ### Flags
 
